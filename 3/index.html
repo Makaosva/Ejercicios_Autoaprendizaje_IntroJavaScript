@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Actividad 3</title>
+  </head>
+  <body>
+    <p>
+      En Santiago a <span class="FechaFirma">[FECHA DE FIRMA]</span> ,
+      comparecen: <span class="NombreDueno">[NOMBRE DUEÑO]</span> , Rut:
+      <span class="RutDueno">[RUT DUEÑO]</span> ,
+      <span class="nacionaciladDueno">[NACIONALIDAD]</span> ,
+      <span class="estadoCivilDueno">[ESTADO CIVIL]</span>, domiciliado
+      <span class="domicilioDueno">[DOMICILIO]</span>
+      , <span class="comunaDueno">[COMUNA]</span> ,
+      <span class="ciudadDueno">[CIUDAD]</span>, en adelante “EL ARRENDADOR”,
+      por una parte, y por la otra
+      <span class="nombreArren">[NOMBRE DEL ARRENDATARIO]</span>, Rut
+      <span class="rutArren">[RUT DEL ARRENDATARIO]</span>, con domicilio en
+      <span class="DomicilioArren">[DOMICILIO]</span>, de la comuna de
+      <span class="comunaArren">[COMUNA]</span>,
+      <span class="ciudaadArren">[CIUDAD]</span>, en adelante “EL ARRENDATARIO”,
+      ambos mayores de edad, quienes acreditaron su identidad personal con las
+      cédulas antes referidas, exponen: PRIMERO:
+      <span class="nombreDueno">[NOMBRE DUEÑO]</span> es dueño de la propiedad
+      ubicada en calle
+      <span class="direccionArriendo">[DOMICILIO DEL INMUEBLE A ARRENDAR]</span
+      >, <span class="comunaArriendo">[COMUNA]</span>, Región
+      <span class="regionArriendo">[NOMBRE DE LA REGIÓN]</span>.
+    </p>
+    <script>
+      const fechaFirma = prompt("Ingrese Fecha de Firma");
+      console.log(fechaFirma);
+      let fechaSpan = document.querySelector("p .FechaFirma");
+      fechaSpan.innerHTML = fechaFirma;
+    </script>
+  </body>
+</html>

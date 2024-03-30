@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Actividad 2</title>
+  </head>
+  <body>
+    <p>
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Consectetur,
+      quaerat porro. Molestiae doloremque sit porro?
+    </p>
+    <p>Hola, mi nombre es <span class="nombre">____</span>, mucho gusto</p>
+    <nav class="menu">Menú</nav>
+    <section id="Hero-Section"></section>
+    <footer>Pie de página</footer>
+
+    <script>
+      parrafo = document.querySelector("p");
+      parrafo.innerHTML = "Este contenido fue agregado con JavaScript";
+      menu = document.querySelector(".nav");
+      heroSection = document.querySelector("#Hero-Section");
+      pieDePagina = document.querySelector("footer");
+      var nombreSpan = document.querySelector("p .nombre");
+      nombreSpan.innerHTML = "John";
+    </script>
+  </body>
+</html>
